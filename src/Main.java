@@ -18,7 +18,10 @@ public class Main {
         System.out.println("----------------------------------------------");
         System.out.println(b2);
 
+      // Copy Referance But Not Copy Object
+        b1=b2 
 
+     //  Copy Object
         b1=b2.getCopy();
         b1.setTitle("Ibrahim Kamal");
         b2.setPages(100);
