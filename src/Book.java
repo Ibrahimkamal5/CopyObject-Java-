@@ -91,11 +91,7 @@ public class Book {
     }
 
 public Book getCopy(){
-       Book temp = new Book();
-       temp.title = this.title;
-       temp.pages = this.pages;
-       temp.category = this.category;
+      return (new Book(title ,pages, category));
+}
+}
 
-       return temp;
-}
-}
