@@ -3,7 +3,7 @@ CopyObject – Java Object Cloning Example  This is a simple Java example demons
 Purpose:
 This example was built to understand how object references behave in Java and how to avoid unintended data sharing between objects.
 
-//-----------------------------------------------------------------------------------
+
 Copy Object in Java (Single Class Example)
 * Overview
 This project demonstrates how object copying works in Java using a single class example.
